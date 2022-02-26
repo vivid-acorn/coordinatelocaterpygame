@@ -15,8 +15,9 @@ WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 
-file1 = open("myfile.txt","w")
+
 try:
+    file1 = open("myfile.txt","w")
     file1.writelines(mx)
 except:
     print('Data transfer failed.')
